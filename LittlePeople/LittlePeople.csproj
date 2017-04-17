@@ -98,17 +98,19 @@
     <Content Include="App_Data\DB_log.ldf">
       <DependentUpon>DB.mdf</DependentUpon>
     </Content>
+    <Content Include="Images\EnterBackroud.jpg" />
+    <Content Include="WebPages\CenterPage.aspx" />
     <Content Include="WebPages\HomePage.aspx" />
     <Content Include="Images\logo1.jpg" />
     <Content Include="Images\logo_kids.png" />
     <Content Include="Images\logo_reports.png" />
     <Content Include="Images\logo_supply.png" />
     <Content Include="Images\logo_workers.png" />
-    <Content Include="WebPages\MainPage.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="WebPages\KidPage.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -120,15 +122,25 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WebPages\CenterPage.aspx.cs">
+      <DependentUpon>CenterPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPages\CenterPage.aspx.designer.cs">
+      <DependentUpon>CenterPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebPages\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebPages\MainPage.aspx.cs">
-      <DependentUpon>MainPage.aspx</DependentUpon>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebPages\KidPage.aspx.cs">
+      <DependentUpon>KidPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebPages\KidPage.aspx.designer.cs">
+      <DependentUpon>KidPage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
