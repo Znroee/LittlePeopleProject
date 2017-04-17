@@ -98,7 +98,7 @@
             <tr style="width: 1100px; height: 50px">
 
                <td>
-                   <asp:Label ID="lblTime" CssClass="DateTime"  runat="server"></asp:Label>
+                   <asp:Label ID="lblDateTime" runat="server" Text="Label" ValidateRequestMode="Enabled" ViewStateMode="Enabled"></asp:Label>
                
                </td> 
 
@@ -126,21 +126,24 @@
                    <li>ילדי הגן</li>
                    <li>הזמנות וספקים</li> 
                    <li>עובדי הגן</li>
-                   <li>דו"חות וטפסים</li>        
+                   <li>דו"חות וטפסידו"חות וטפסים</li>        
              </ul>
         <ul>        
-                   <li><a href="~/.aspx"><img class="icons" src="Images/logo_kids.png" /></a></li>
-                   <li><a href="~/.aspx"><img class="icons" src="Images/logo_supply.png" /></a></li> 
-                   <li><a href="~/.aspx"><img class="icons" src="Images/logo_workers.png" /></a></li>
-                   <li><a href="~/.aspx"><img class="icons" src="Images/logo_reports.png" /></a></li>        
+                   <li>
+                       <a href="~/.aspx"><img class="icons" src="../Images/logo_kids.png" /></a></li>
+                   <li><a href="~/.aspx"><img class="icons" src="../Images/logo_supply.png" /></a></li> 
+                   <li><a href="~/.aspx"><img class="icons" src="../Images/logo_workers.png" /></a></li>
+                   <li><a href="~/.aspx"><img class="icons" src="../Images/logo_reports.png" /></a></li>        
              </ul>
      
      </div>
     </div>
-   <asp:LinkButton runat="server" href="HomePage.aspx" Text="[יציאה מהמערכת]" CssClass="logoutBTN" />
+   <asp:LinkButton runat="server" href="../HomePage.aspx" Text="[יציאה מהמערכת]" CssClass="logoutBTN" />
    </form>
 </body>
      <footer class="footer">
+        כל הזכויות שמורות לשני זינו ומרום ברייר ©
+      <footer class="footer">
         כל הזכויות שמורות לשני זינו ומרום ברייר ©
     </footer>
 </html>

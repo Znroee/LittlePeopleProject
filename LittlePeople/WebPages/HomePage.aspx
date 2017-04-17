@@ -57,7 +57,7 @@
         <table style="width: 1100px">
             <tr style="width: 1100px; height: 50px">
                 <td style="width: 60px">
-                    <img class="logo" src="Images/logo1.jpg"/>&nbsp;
+                    <img class="logo" src="../Images/logo1.jpg"/>&nbsp;
                
                 </td>
             </tr>
